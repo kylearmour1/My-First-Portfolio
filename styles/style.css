@@ -5,54 +5,56 @@ html {
 
 body {
     margin: 0;
-    background-color:rgba(0, 0, 0, 0.952);  
-      
+    background-color: rgba(0, 0, 0, 0.952);
+
 }
 
 
 .p {
-color: whitesmoke;
+    color: whitesmoke;
 }
 
 .credentials {
-color: whitesmoke;
+    color: whitesmoke;
 }
 
 .navbar {
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    background:rgb(60, 75, 60);
-    color: black; 
+    background: rgb(55, 9, 221);
+    color: black;
+    margin: 4px 4px;
+    padding: 2px 2px 2px 2px;
 }
 
 
 .nav {
-display: flex;
-margin: 0;
-padding: 0;
-list-style: none; 
-gap: 1px;   
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 1px;
 }
 
 
 .nav li {
-flex-shrink: 1;
-flex-grow: 1;
-}  
+    flex-shrink: 1;
+    flex-grow: 1;
+}
 
 
 .img img {
-    width:100% ;
+    width: 100%;
     height: 250px;
-    
+
 }
 
 
 .credentials {
     font-style: italic;
-    max-width: auto; 
+    max-width: auto;
     margin-top: 0;
-    padding:0 1em
+    padding: 0 1em
 }
 
 
@@ -63,12 +65,13 @@ flex-grow: 1;
 
 
 #about-me div {
-    display:flex;
+    display: flex;
+
 }
 
 
 #about-me img {
-    width:20%;
+    width: 20%;
     float: left;
     height: 200px;
     margin-right: 30px;
@@ -76,17 +79,16 @@ flex-grow: 1;
 }
 
 
-#work section{
-   grid-gap: 10px;
-    display: flex;
-    display:grid;
-   justify-content: center;
+#work section {
+    grid-gap: 10px;
+    display: grid;
+    justify-content: center;
 }
 
 
-#work img { 
+#work img {
     height: 300px;
-    width: 400px;   
+    width: 400px;
     border: 5px solid whitesmoke;
     flex-shrink: 1;
     flex-grow: 1;
@@ -95,33 +97,34 @@ flex-grow: 1;
 
 #work div {
     display: flex;
-    display:grid;
+    display: grid;
     justify-content: center;
     width: auto;
     height: auto;
 }
 
 
-#work div img{
-    max-width: 100%;   
-    width:812.5px;
-    height:300px;
+#work div img {
+    max-width: 100%;
+    width: 819.5px;
+    height: 300px;
     flex-shrink: 1;
     flex-grow: 1;
+
 }
 
 
 #work #pre-work {
     max-width: 100%;
     grid-column: 1;
-    grid-row:1
+    grid-row: 1
 }
 
 
 #work #coding {
     max-width: 100%;
     grid-column: 2;
-    grid-row:1
+    grid-row: 1;
 }
 
 
@@ -140,11 +143,11 @@ flex-grow: 1;
 
 
 .credentials p {
-vertical-align: top;
+    vertical-align: top;
 }
 
 
-h2::before { 
+h2::before {
     font-family: impact;
     content: '⍣';
     color: whitesmoke;
@@ -154,7 +157,7 @@ h2::before {
 
 .nav a {
     padding: 8px 12px;
-    color:inherit;
+    color: inherit;
     border: 3px solid black;
     display: block;
 }
@@ -172,13 +175,13 @@ h2::before {
 }
 
 
-.credentials p{
+.credentials p {
     text-align: justify;
 }
 
 
 #contact-me {
-    display:flex;
+    display: flex;
     align-items: center;
 }
 
@@ -191,13 +194,13 @@ h2::before {
 
 
 .bottom {
-    display: flex;  
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 75%;
     margin: 0;
     padding: 0;
-    list-style: none; 
+    list-style: none;
     color: whitesmoke;
 }
 
@@ -209,33 +212,26 @@ h2::before {
 
 @media screen and (max-width: 768px) {
     #work section {
-      display: flex;
-      flex-direction: column;
-      
+        display: flex;
+        flex-direction: column;
+
     }
-  }
+}
 
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .navbar {
-      display: flex;
-      flex-direction: column;
-      
+        display: flex;
+        flex-direction: column;
+
     }
-  }
+}
 
 
-  @media screen and (max-width: 786px) {
-    #work div{
-      display: flex;
-      flex-direction: column;
-      
+@media screen and (max-width: 786px) {
+    #work div {
+        display: flex;
+        flex-direction: column;
+
     }
-  }
- 
-
- 
-
-  
-
-
+}
