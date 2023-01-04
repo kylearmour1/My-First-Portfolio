@@ -109,8 +109,11 @@ body {
 #refactoring {
     max-width: 50%;
     transform: scaleX(2);
+    justify-content: center;
+    align-items: center;
     margin: auto;
     padding: auto;
+    
 
 
 
@@ -288,6 +291,13 @@ h2::before {
 
 @media screen and (max-width: 786px) {
     #refactoring {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+@media screen and (max-width: 786px) {
+    #work {
         display: flex;
         flex-direction: column;
 
