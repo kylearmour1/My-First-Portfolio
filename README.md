@@ -17,4 +17,4 @@ https://github.com/kylearmour1/My-First-Portfolio
 https://kylearmour1.github.io/My-First-Portfolio/
 
 
-![image](./assets\FINAL.png)
+![image](./assets/FINAL.png)
