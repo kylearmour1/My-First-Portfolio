@@ -5,7 +5,7 @@ html {
 
 body {
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.952);
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.795));
 
 }
 
@@ -40,24 +40,6 @@ body {
 .nav li {
     flex-shrink: 1;
     flex-grow: 1;
-}
-.nav a {
-    padding: 8px 12px;
-    color: inherit;
-    border: 3px solid black;
-    display: block;
-}
-
-
-.nav a:hover {
-    background-color: lightgreen;
-}
-
-
-.nav a:active {
-    outline: none;
-    border-color: aliceblue;
-    box-shadow: white;
 }
 
 
@@ -208,6 +190,24 @@ h2::before {
 }
 
 
+.nav a {
+    padding: 8px 12px;
+    color: inherit;
+    border: 3px solid black;
+    display: block;
+}
+
+
+.nav a:hover {
+    background-color: lightgreen;
+}
+
+
+.nav a:active {
+    outline: none;
+    border-color: aliceblue;
+    box-shadow: white;
+}
 
 
 .credentials p {
@@ -216,15 +216,12 @@ h2::before {
 
 
 #contact-me {
-    max-width: 100%;
-    display: inline;
     display: flex;
     align-items: center;
 }
 
 
 #contact-me h2 {
-    
     display: inline;
     margin: 0;
     margin-right: 35px;
