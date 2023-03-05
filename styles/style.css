@@ -21,7 +21,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(rgb(35, 66, 168), rgba(0, 0, 0, 0.795));
+    background-image: linear-gradient(rgb(4, 33, 122),rgba(245, 245, 245, 0.473));
     color: black;
     margin: 4px 4px;
     padding: 2px 2px 2px 2px;
