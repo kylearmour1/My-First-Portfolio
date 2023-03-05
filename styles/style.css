@@ -21,7 +21,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    background: rgb(55, 9, 221);
+    background-image: linear-gradient(rgb(35, 66, 168), rgba(0, 0, 0, 0.795));
     color: black;
     margin: 4px 4px;
     padding: 2px 2px 2px 2px;
@@ -192,6 +192,7 @@ h2::before {
 
 .nav a {
     padding: 8px 12px;
+    font-weight: bold;
     color: inherit;
     border: 3px solid black;
     display: block;
